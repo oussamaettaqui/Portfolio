@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="bg-black text-white z-10 relative mt-10 w-[70%] m-auto rounded-[12px]">
+    <nav className="bg-black text-white z-10 relative mt-10 w-[70%] m-auto rounded-[12px]  font-orbitron">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="logo">
           <h1 className="text-2xl font-bold text-white">OETTAQUI</h1>

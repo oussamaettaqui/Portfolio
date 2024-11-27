@@ -61,10 +61,10 @@ export default function Hero() {
   }, []); // Empty dependency array means this runs once on mount
   
   return (
-    <div className="w-[60%] m-auto z-10 relative mt-10 rounded-lg loader font-orbitron">
+    <div className="w-[65%] m-auto z-10 relative  rounded-lg loader font-orbitron flex justify-center items-center">
       <h1 
         ref={textRef} 
-        className="text-[100px] flex flex-wrap justify-center font-bold"
+        className="text-[100px] flex flex-wrap justify-center  font-bold"
       >
         <span>O</span>
         <span>U</span>
